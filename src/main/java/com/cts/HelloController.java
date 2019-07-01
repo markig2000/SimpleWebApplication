@@ -9,10 +9,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public ModelAndView mymethod(){
-		
-	String.format("%< is equals to %d", 2); //Noncompliant; the argument index '<' refers to the previous format specifier but there isn't one 
- 
-
+		 System.out.println(String.format("The value of my integer is %d", "Hello World"));  // Noncompliant; an 'int' is expected rather than a String)
 		return new ModelAndView("hellopage","msg","Hello First Spring");
 	}
 }
