@@ -1,0 +1,16 @@
+/*@Test
+	public void exampleTest() {
+		WelcomeController homeController = new WelcomeController();
+	        String result = homeController.mymethod();
+	        Assert.assertEquals(result, "Hello World!");
+	        //Assert.assertEquals(result, "Hello World");
+	}*/
+
+	@Test
+	public void exampleTest() {
+		ConceptLabController homeController = new ConceptLabController();
+	        //String result = homeController.requirement();
+	        //Assert.assertEquals(result, "Hello World!");
+	        //Assert.assertEquals(result, "Hello World");
+			homeController.requirement();
+	}
